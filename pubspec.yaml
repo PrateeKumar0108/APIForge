@@ -1,0 +1,47 @@
+name: apiforge
+description: "A professional mobile REST API testing client built with Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management & Navigation
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+
+  # Networking & HTTP
+  dio: ^5.8.0+1
+
+  # Local Persistence (SQLite via Drift)
+  drift: ^2.25.0
+  drift_flutter: ^0.2.4
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Secure Secrets Storage
+  flutter_secure_storage: ^9.2.4
+
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Drift Code Generation
+  drift_dev: ^2.25.0
+  build_runner: ^2.4.15
+
+  # Testing Utilities
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
